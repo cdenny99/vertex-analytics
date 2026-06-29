@@ -1,9 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import MainLayout from "./components/layout/MainLayout";
 
 function App() {
   return (
-    <div className="app-shell">
+    <MainLayout>
       <aside className="sidebar">
         <div className="brand">
           <div className="brand-mark">V</div>
@@ -97,7 +98,7 @@ function App() {
           </div>
         </section>
       </main>
-    </div>
+    </MainLayout>
   );
 }
 
